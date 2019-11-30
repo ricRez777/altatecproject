@@ -1,0 +1,68 @@
+*{
+	box-sizing: border-box;
+	margin:0px;
+	padding: 0px;
+	outline: 0;
+}
+header{
+	background-color: white;
+	position: relative;
+	z-index: 1;
+	height: 110px;
+	font-family: Century Gothic;
+}
+#navCategorias{
+	position: relative;
+	transform: translate(-5%, -90%);
+	display: inline-block;
+}
+.links{
+	position: relative;
+	transform: translate(27%, -27%);
+	display: inline-block;
+}
+.busqueda{
+	position: relative;
+	transform: translate(0%, -50%);
+	display: inline-block;	
+}
+
+#div-Cuentas{
+	position: relative;
+	top: 25px;
+	left: 105px;
+}
+
+.ulNav{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+	.ulNav>li{
+		position: relative;
+		display: inline-block;
+		padding: 0 1em;
+	}
+	.ulNav li a{
+		color: black;
+	}
+	.ulNav li ul{
+		white-space: nowrap;
+	}
+	.ulNav li ul{
+		left:0;
+		background-color: #fff;
+		position: absolute;
+		display: block;	
+		overflow:visible;
+	}
+	.ulNav li ul li {
+		display: none;
+	}
+	.ulNav li:hover{
+		background-color: #7BB8CD;
+	}
+	.ulNav li:hover ul li{
+		display: block;
+		width: 100%;
+	}
